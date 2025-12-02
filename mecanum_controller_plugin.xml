@@ -1,0 +1,8 @@
+<!-- mecanum_controller_plugin.xml -->
+<library path="mecanum_controller">
+  <class name="yahboomcar_mecanum_controller/MecanumController"
+         type="yahboomcar_mecanum_controller::MecanumController"
+         base_class_type="controller_interface::ControllerInterface">
+    <description>A simple mecanum wheel controller for ROS 2</description>
+  </class>
+</library>
